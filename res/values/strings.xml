@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pulse of Tweets </string>
+
+    <string name="twittpulse_settings">Settings</string>
+
+    <string name="twittpulse_settings_about_key">twitter_about_key</string>
+    <string name="twittpulse_settings_about_pref_title">About</string>
+
+    <string name="twittpulse_settings_wifi">Warning! A lot of traffic required.</string>
+    <string name="twittpulse_settings_wifi_sum">This Dream will run in full mode only with the active Wi-Fi, due to the
+        high volume of traffic received in real time. In the case of connection via 2G/3G/4G, received data amount is
+        forcibly reduced to a few times.
+    </string>
+
+    <string name="twittpulse_twitt_count">Total count of tweets:</string>
+    <string name="twittpulse_data_type">Data type -</string>
+
+    <string name="twittpulse_version_name">Program version</string>
+    <string name="twittpulse_version_code">Code version</string>
+    <string name="twittpulse_version_author">Alex Ivantsov</string>
+
+    <string name="twittpulse_version_nocode">Version code not available.</string>
+    <string name="twittpulse_version_noname">Version name not available.</string>
+
+    <string name="twittpulse_settings_night_key">twitter_night_key</string>
+    <string name="twittpulse_settings_night_pref_title">Night mode</string>
+    <string name="twittpulse_settings_night_pref_summary">Very dim display (for dark rooms)</string>
+    <string name="twittpulse_settings_night_pref_on">Night mode is on</string>
+    <string name="twittpulse_settings_night_pref_off">Night mode is off</string>
+
+    <string name="twittpulse_settings_map_type_key">twitter_map_type_key</string>
+    <string name="twittpulse_settings_map_type_pref_title">Select the type of OSM Map</string>
+    <string name="twittpulse_settings_map_type_pref_summary">Which type of map will be used</string>
+    <string name="twittpulse_settings_map_type_pref_on"></string>
+    <string name="twittpulse_settings_map_type_pref_off"></string>
+
+    <string name="twittpulse_settings_map_multitouch_key">twitter_map_multi_touch_key</string>
+    <string name="twittpulse_settings_map_multitouch_pref_title">Enable multi touch</string>
+    <string name="twittpulse_settings_map_multitouch_pref_summary">Multi touch is enabled or not</string>
+    <string name="twittpulse_settings_map_multitouch_pref_on">Multi touch is enabled</string>
+    <string name="twittpulse_settings_map_multitouch_pref_off">Multi touch is disabled</string>
+
+    <string name="twittpulse_settings_statistics_key">twitter_statistics_key</string>
+    <string name="twittpulse_settings_statistics_pref_title">Show tweets and its count</string>
+    <string name="twittpulse_settings_statistics_pref_summary">Tweets and its count is enabled or not</string>
+    <string name="twittpulse_settings_statistics_pref_on">Tweets and its count is enabled</string>
+    <string name="twittpulse_settings_statistics_pref_off">Tweets and its count is disabled</string>
+
+</resources>

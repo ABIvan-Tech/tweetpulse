@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/twittpulse_settings">
+    <Preference
+            android:selectable="false"
+            android:title="@string/twittpulse_settings_wifi"
+            android:summary="@string/twittpulse_settings_wifi_sum"
+            />
+
+    <ListPreference android:key="@string/twittpulse_settings_map_type_key"
+                    android:title="@string/twittpulse_settings_map_type_pref_title"
+                    android:summary="@string/twittpulse_settings_map_type_pref_summary"
+                    android:defaultValue="0"
+                    android:entries="@array/twittpulse_in_normal_view"
+                    android:entryValues="@array/twittpulse_in_system_values"/>
+    <CheckBoxPreference android:key="@string/twittpulse_settings_night_key"
+                        android:defaultValue="true"
+                        android:summaryOff="@string/twittpulse_settings_night_pref_off"
+                        android:summaryOn="@string/twittpulse_settings_night_pref_on"
+                        android:summary="@string/twittpulse_settings_night_pref_summary"
+                        android:title="@string/twittpulse_settings_night_pref_title"/>
+    <CheckBoxPreference android:key="@string/twittpulse_settings_map_multitouch_key"
+                        android:defaultValue="false"
+                        android:summaryOff="@string/twittpulse_settings_map_multitouch_pref_off"
+                        android:summaryOn="@string/twittpulse_settings_map_multitouch_pref_on"
+                        android:summary="@string/twittpulse_settings_map_multitouch_pref_summary"
+                        android:title="@string/twittpulse_settings_map_multitouch_pref_title"/>
+    <CheckBoxPreference android:key="@string/twittpulse_settings_statistics_key"
+                        android:defaultValue="true"
+                        android:summaryOff="@string/twittpulse_settings_statistics_pref_off"
+                        android:summaryOn="@string/twittpulse_settings_statistics_pref_on"
+                        android:summary="@string/twittpulse_settings_statistics_pref_summary"
+                        android:title="@string/twittpulse_settings_statistics_pref_title"/>
+    <Preference
+            android:selectable="false"
+            android:key="@string/twittpulse_settings_about_key"
+            android:title="@string/twittpulse_settings_about_pref_title"
+            />
+
+</PreferenceScreen>
